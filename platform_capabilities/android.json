@@ -1,0 +1,6 @@
+{
+    "platformName": "Android",
+    "appium:automationName": "UiAutomator2",
+    "appium:deviceName": "Pixel 6 Pro",
+    "appium:browserName": "Chrome"
+}
