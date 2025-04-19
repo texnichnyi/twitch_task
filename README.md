@@ -44,4 +44,5 @@ Then run next commands from project root (twich_task)
 
 ## Demo
 
-Insert gif or link to demo
+Please download device recording from 
+https://github.com/texnichnyi/twitch_task/blob/main/starcraft.webm
