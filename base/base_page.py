@@ -27,6 +27,14 @@ class BasePage:
         """
         return WebDriverWait(self.driver, timeout).until(expected_conditions.visibility_of_element_located(locator=element_locator))
 
+    def wait_for_element_invisibility_by(self, element_locator, timeout=10):
+        """
+        :param element_locator: locator of element that we're waiting to be invisible
+        :param timeout: time of waiting
+        :return: WebElement
+        """
+        return WebDriverWait(self.driver, timeout).until(expected_conditions.invisibility_of_element_located(locator=element_locator))
+
     def wait_for_attribute(self, locator: Locators.Locator, attribute, attribute_value, timeout=20, delay=3):
         """
         :param locator: locator of element that we will work with
