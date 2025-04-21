@@ -44,5 +44,8 @@ Then run next commands from project root (twich_task)
 
 ## Demo
 
-Please download the device recording from 
+Please see the demo of text running in starcraft.gif file 
+https://github.com/texnichnyi/twitch_task/blob/main/starcraft.gif
+
+Or download starcraft.webm and run the video locally
 https://github.com/texnichnyi/twitch_task/blob/main/starcraft.webm
